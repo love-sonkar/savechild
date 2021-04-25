@@ -1,0 +1,159 @@
+
+
+@media  screen and (max-width: 955px) {
+
+    /* styling in navigation bar */
+
+.navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin: 10px;
+}
+.logo h1 {
+    font-size: 1.5rem;
+}
+
+.navbar ul li a{
+    margin-bottom: 10px;
+    font-size: .8rem;
+}
+
+/* styling in home body */
+#sec {
+    height: 90vh;
+}
+
+#sec::before{
+    height: 100%;
+}
+
+.content h1{
+    font-size: 2rem;
+}
+.content h4{
+    font-size: 1.5rem;
+}
+ .btn{
+     font-size: .5rem;
+ }
+
+/* styling in service section */
+
+.service{
+    flex-direction: column;
+}
+
+.box{
+    display: block;
+    margin: 8px auto;
+    max-width: 50%;
+}
+.service .box img {
+    max-height: 90px;
+}
+
+.container h1{
+    font-size: 1.5rem;
+}
+
+.container p{
+    font-size: .8rem;
+}
+
+/* styling in about us section */
+
+.two-box{
+    max-width: 50%;
+    display: block;
+    margin: 21px auto;
+}
+
+.two-box h1{
+    font-size: 1.5rem;
+}
+
+.two-box p{
+    font-size: .8rem;
+}
+
+.two-box h4{
+    font-size: 1rem;
+}
+
+}
+
+@media  screen and (max-width: 560px) {
+
+    /* styling in navigation bar */  
+    
+    .logo h1 {
+        font-size: 1rem;
+    }
+    
+    .navbar ul li a{
+        font-size: .5rem;
+    }
+
+    /* styling in home section */
+
+    #sec {
+        height: 90vh;
+    }
+
+    #sec::before{
+        height: 100%;
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+    }
+    .content h4 {
+        font-size: .8rem;
+    }
+     .btn{
+         font-size: .3rem;
+     }
+
+
+    /* styling in service section */
+
+    .service .box img {
+        max-height: 50px;
+    }
+
+    .container h1{
+        font-size: 1rem;
+    }
+
+    .container p{
+        font-size: .5rem;
+    }
+
+
+
+    /* styling in about section */
+
+    .about::before {
+            height: 210px;
+        }
+
+    .two-box img{
+        height: 70px;
+    }
+
+    .two-box h1{
+        font-size: .9rem;
+    }
+
+    .two-box p{
+        font-size: .4rem;
+    }
+
+    .two-box h4{
+        font-size: .5rem;
+    }
+}
