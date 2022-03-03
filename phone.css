@@ -1,159 +1,181 @@
+@media screen and (max-width: 955px) {
+  /* styling in navigation bar */
 
-
-@media  screen and (max-width: 955px) {
-
-    /* styling in navigation bar */
-
-.navbar{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo{
-    margin: 10px;
-}
-.logo h1 {
+  .logo h1 {
     font-size: 1.5rem;
-}
+  }
 
-.navbar ul li a{
+  ul li a {
     margin-bottom: 10px;
-    font-size: .8rem;
-}
+    font-size: 0.8rem;
+  }
 
-/* styling in home body */
-#sec {
+  /* styling in home body */
+  #sec {
     height: 90vh;
-}
+  }
 
-#sec::before{
+  #sec::before {
     height: 100%;
-}
+  }
 
-.content h1{
+  .content h1 {
     font-size: 2rem;
-}
-.content h4{
+  }
+  .content h4 {
     font-size: 1.5rem;
-}
- .btn{
-     font-size: .5rem;
- }
+  }
+  .btn {
+    font-size: 0.5rem;
+  }
 
-/* styling in service section */
+  /* styling in service section */
 
-.service{
+  .service {
     flex-direction: column;
-}
+  }
 
-.box{
+  .box {
     display: block;
     margin: 8px auto;
     max-width: 50%;
-}
-.service .box img {
+  }
+  .service .box img {
     max-height: 90px;
-}
+  }
 
-.container h1{
+  .container h1 {
     font-size: 1.5rem;
-}
+  }
 
-.container p{
-    font-size: .8rem;
-}
+  .container p {
+    font-size: 0.8rem;
+  }
 
-/* styling in about us section */
+  /* styling in about us section */
 
-.two-box{
+  .two-box {
     max-width: 50%;
     display: block;
     margin: 21px auto;
-}
+  }
 
-.two-box h1{
+  .two-box h1 {
     font-size: 1.5rem;
-}
+  }
 
-.two-box p{
-    font-size: .8rem;
-}
+  .two-box p {
+    font-size: 0.8rem;
+  }
 
-.two-box h4{
+  .two-box h4 {
     font-size: 1rem;
+  }
 }
 
+@media (max-width: 768px) {
+  .ham {
+    display: block;
+    z-index: 10;
+  }
+
+  .ham .open,
+  .ham .close {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    position: absolute;
+    right: 0.6875rem;
+    top: 0.4375rem;
+  }
+
+  .ham .close {
+    display: none;
+    font-size: 2rem;
+    top: 0.1875rem;
+  }
+
+  #mobile-res {
+    overflow: hidden;
+    height: 100vh;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    inset: 0 0 0 100%;
+    transition: 0.5s ease-in-out;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0 1.25rem;
+    backdrop-filter: blur(1rem);
+  }
+  .inset {
+    inset: 0 0 0 60%;
+  }
 }
 
-@media  screen and (max-width: 560px) {
+@media screen and (max-width: 560px) {
+  /* styling in navigation bar */
 
-    /* styling in navigation bar */  
-    
-    .logo h1 {
-        font-size: 1rem;
-    }
-    
-    .navbar ul li a{
-        font-size: .5rem;
-    }
+  .logo h1 {
+    font-size: 1rem;
+  }
 
-    /* styling in home section */
+  .navbar ul li a {
+    font-size: 0.5rem;
+  }
 
-    #sec {
-        height: 90vh;
-    }
+  /* styling in home section */
 
-    #sec::before{
-        height: 100%;
-    }
+  #sec {
+    height: 90vh;
+  }
 
-    .content h1 {
-        font-size: 1.5rem;
-    }
-    .content h4 {
-        font-size: .8rem;
-    }
-     .btn{
-         font-size: .3rem;
-     }
+  #sec::before {
+    height: 100%;
+  }
 
+  .content h1 {
+    font-size: 1.5rem;
+  }
+  .content h4 {
+    font-size: 0.8rem;
+  }
+  .btn {
+    font-size: 0.3rem;
+  }
 
-    /* styling in service section */
+  /* styling in service section */
 
-    .service .box img {
-        max-height: 50px;
-    }
+  .service .box img {
+    max-height: 50px;
+  }
 
-    .container h1{
-        font-size: 1rem;
-    }
+  .container h1 {
+    font-size: 1rem;
+  }
 
-    .container p{
-        font-size: .5rem;
-    }
+  .container p {
+    font-size: 0.5rem;
+  }
 
+  /* styling in about section */
 
+  .about::before {
+    height: 210px;
+  }
 
-    /* styling in about section */
+  .two-box img {
+    height: 70px;
+  }
 
-    .about::before {
-            height: 210px;
-        }
+  .two-box h1 {
+    font-size: 0.9rem;
+  }
 
-    .two-box img{
-        height: 70px;
-    }
+  .two-box p {
+    font-size: 0.4rem;
+  }
 
-    .two-box h1{
-        font-size: .9rem;
-    }
-
-    .two-box p{
-        font-size: .4rem;
-    }
-
-    .two-box h4{
-        font-size: .5rem;
-    }
+  .two-box h4 {
+    font-size: 0.5rem;
+  }
 }
